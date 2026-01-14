@@ -14,11 +14,12 @@ body {
 header {
     text-align: center;
     padding: 80px 20px;
-    background: olive;
+    background:#605971;
 }
 
-header h1 {
+ h1 {
     font-size: 42px;
+     color: white;
 }
 
 .highlight {
@@ -51,7 +52,7 @@ nav {
     justify-content: center;
     gap: 30px;
     padding: 15px;
-    background: #020617;
+    background: black;
 }
 
 nav a {
@@ -73,7 +74,7 @@ section h2 {
     text-align: center;
     margin-bottom: 40px;
     font-size: 32px;
-    color: #a5b4fc;
+    color: navy;
 }
 
 /* SKILLS */
@@ -102,6 +103,7 @@ ul li:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 25px;
+    color:#66545e;
 }
 
 .project-card {
@@ -117,7 +119,10 @@ ul li:hover {
 }
 
 /* CONTACT */
-button {
+contact p{
+     text-align:center;
+}
+button{
     margin-top: 15px;
 }
 
@@ -128,4 +133,5 @@ footer {
     background: #020617;
     color: #94a3b8;
 }
+
 
