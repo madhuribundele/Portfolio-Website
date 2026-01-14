@@ -14,7 +14,7 @@ body {
 header {
     text-align: center;
     padding: 80px 20px;
-    background: linear-gradient(135deg, #6366f1, #4338ca);
+    background: olive;
 }
 
 header h1 {
@@ -128,3 +128,4 @@ footer {
     background: #020617;
     color: #94a3b8;
 }
+
